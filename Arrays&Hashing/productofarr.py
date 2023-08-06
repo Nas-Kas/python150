@@ -13,6 +13,11 @@ outarr [24,24,12, 4]
 [(b*c*d),(a*c*d),(a*b*d),(a*b*c)]
 
 r 6 min
+things to remember to traverse an arr backwards
+for x in range(len(arr)-1,-1,-1) the first -1 means go backwards the second -1 tells us by how much
+think of this problem like grab the product from the left of my index and from the right of my index
+think inarr outarr
+you need to populate an array before you change an indexed value
 '''
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
